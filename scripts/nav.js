@@ -7,3 +7,6 @@ $(window).bind('scroll', function () {
         $('.nav').removeClass('navscroll');
     }
 });
+
+
+console.log($(window).scrollTop())
