@@ -114,12 +114,12 @@ section {
 section .intro {
 	padding-left: 7%;
 	background-color: #F4C916;
-	height: 470px;
+	height: 490px;
 	margin-top:-40px;
 }
 
 section .intro h1 {
-	padding-top:60px;
+	padding-top:90px;
 }
 
 section .intro h1 a{
@@ -176,7 +176,7 @@ section .compass {
 	background-color: #E59380;
 	margin:0 auto;
 	width:80%;
-	margin-top: -20px;
+	margin-top: 20px;
 }
 
 section .compass h2 {
@@ -489,7 +489,12 @@ footer p a {
 	padding-left:7%;
 	padding-right:7%;
 	line-height:1.7;
+}
 
+.part img {
+	margin: 0 auto;
+	width:80%;
+	text-align:center;
 }
 
 h5 {

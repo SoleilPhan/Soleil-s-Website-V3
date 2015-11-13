@@ -8,5 +8,4 @@ $(window).bind('scroll', function () {
     }
 });
 
-
 console.log($(window).scrollTop())
