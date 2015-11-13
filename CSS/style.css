@@ -23,14 +23,15 @@ header .nav {
 	width:100%;
 	position:fixed;
 	margin:0 auto;
-	z-index:100;
+	background-color: #F4C916;
+	z-index:1000;
 }
 
 header .nav ul {
   list-style: none;
   background-color: #F4C916;
   text-align: center;
-  padding: 0;
+  padding: 10px 2% 20px 2%;
   margin: 0 auto;
 }
 
@@ -38,10 +39,22 @@ header .nav ul {
 	box-shadow:0 2px 5px rgba(0,0,0,0.26);
 }
 
-.nav li {
+.logo {
+	float:left;
+}
 
-  line-height: 40px;
-  height: 30px;
+.email {
+	float:right;
+}
+
+.email a{
+	padding-top:7px;
+}
+
+.nav li {
+	z-index:1000;	
+  	line-height: 40px;
+  	height: 30px;
 }
 
 header .nav a{
@@ -278,14 +291,27 @@ section .codelab p {
 	color: #d3d3d3;
 }
 
+section .codelab #wrapper {
+	overflow:hidden;
+	box-shadow:0 2px 0px rgba(0,0,0,0.26);
+}
+
+section .codelab img {
+	margin-top:10%;
+	height:80%;
+}
+
 section .cloudant {
-	position:relative;
 	padding-left: 7%;
 	height: 500px;
-	background-color: #E59380;
+	background-color: #02AFA2;
+	opacity:0.9;
+	margin-top:20px;
+	margin-bottom:20px;
 	margin:0 auto;
 	width:80%;
-	margin-top:-60px#AA6161}
+}
+
 
 section .cloudant h2 {
 	margin-top:28%;
@@ -297,16 +323,16 @@ section .cloudant #wrapper {
 }
 
 section .cloudant img {
+	margin-top:10%;
 	height:80%;
-	margin-top:50px;
 }
 
 section .cloudant button {
-	background-color:#A05048;
+	background-color:#028278;
 }
 
 section .cloudant p{
-	color:#A05048;
+	color:#025B52;
 }
 
 section .splitsies {
@@ -369,13 +395,14 @@ section .degrees p {
 }
 
 section .canape {
-	position:relative;
 	padding-left: 7%;
 	height: 500px;
-	background-color: #E59380;
+	background-color: #D78F87;
+	margin-top:20px;
+	margin-bottom:20px;
 	margin:0 auto;
 	width:80%;
-	margin-top:-60px#AA6161}
+}
 
 section .canape h2 {
 	margin-top:28%;
@@ -387,8 +414,8 @@ section .canape #wrapper {
 }
 
 section .canape img {
-	height:80%;
-	margin-top:50px;
+	height:70%;
+	margin-top:80px;
 }
 
 section .canape button {
@@ -404,6 +431,7 @@ section .canape p{
 	clear: both;
 	padding: 0px;
 	margin: 0px;
+	z-index:0;
 }
 
 /*  COLUMN SETUP  */
