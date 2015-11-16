@@ -63,6 +63,8 @@ header .nav a{
     top:0px;
     width:100%;
     display:inline-block;
+    font-weight:200;
+    font-size:18px;
     padding-left:2%;
 }
 
@@ -265,6 +267,14 @@ section .pipes button {
 
 section .pipes p {
 	color: #b8b8b8;
+}
+
+section .pipes #wrapper {
+	overflow:hidden;
+}
+
+section .pipes img {
+	margin-top:22%;
 }
 
 section .codelab {
