@@ -68,26 +68,6 @@ header .nav a{
     padding-left:2%;
 }
 
-/*
-
-#links {
-	padding-top:20px;
-	width: 400px;
-	position: absolute;
-	margin-top: 0px;
-	text-align:left;
-	padding-left:3%;
-}
-
-#icons {
-	padding-top:20px;
-	width: 100px;
-	float: right;
-}
-*/
-
-/* nav2 */
-
 .fixed {
 	position:fixed;
 	box-shadow:0 2px 5px rgba(0,0,0,0.26);
@@ -111,7 +91,7 @@ h2 {
 p {
 	line-height:1.7;
 	font-size: 16px;
-	font-weight:400;
+	font-weight:300;
 }
 
 ul {
@@ -124,6 +104,7 @@ section {
 	display: block;
 	margin-top:40px;
 	margin-bottom:40px;
+	min-width: 400px;
 }
 
 section .intro {
@@ -148,6 +129,7 @@ section .intro h2 {
 
 section .intro a {
 	color: #997D07;
+	font-weight:300;
 }
 
 section .intro ul {
@@ -506,7 +488,6 @@ footer p a {
 	margin-top:80px;
 	margin-bottom:40px;
 	padding-left: 7%;
-	height: 200px;
 	padding-top:40px;
 	margin-top:0px;
 }
@@ -518,9 +499,10 @@ footer p a {
 }
 
 .what p {
-	color: #d3d3d3;
+	color: #BABABA;
 	line-height:1.7;
-	width:60%;
+	width:80%;
+	font-size:20px;
 }
 
 .part {
@@ -531,8 +513,14 @@ footer p a {
 
 .part img {
 	margin: 0 auto;
-	width:80%;
+	display:inline-block;
+}
+
+figcaption {
 	text-align:center;
+	font-style:italic;
+	font-weight:300;
+	color: #bababa;
 }
 
 h5 {
@@ -543,8 +531,8 @@ h5 {
 
 
 
-
-
+@media all and (max-width: 60%) and (min-width: 30%) {
+}
 
 
 
