@@ -521,7 +521,7 @@ footer p a {
 	width:640px;
 	display:inline-block;
 	margin:0 auto;
-	margin-right:7px;
+	margin-right:5px;
 	text-align:center;
 }
 
@@ -530,6 +530,10 @@ figcaption {
 	font-style:italic;
 	font-weight:300;
 	color: #bababa;
+}
+
+h4 {
+	margin-top:62px;
 }
 
 h5 {
