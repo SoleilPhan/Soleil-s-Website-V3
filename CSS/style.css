@@ -552,6 +552,12 @@ h5 {
     vertical-align: text-top;
 }
 
+iframe {
+	border:none;
+	display:block;
+	margin:0 auto;
+}
+
 
 
 @media all and (max-width: 60%) and (min-width: 30%) {
