@@ -92,6 +92,7 @@ p {
 	line-height:1.7;
 	font-size: 16px;
 	font-weight:300;
+	overflow:hidden;
 }
 
 ul {
@@ -546,9 +547,10 @@ h5 {
 .col-left {
 	position: relative;
     display: inline-block;
-    width: 48%;
-    margin-right: 50px;
+    width: 43%;
+    margin-right: 140px;
     min-height: 100px;
+    max-width:600px;
     vertical-align: text-top;
 }
 
